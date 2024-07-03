@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang = "en-US">
+<head>
+    <meta charset = "UTF-8">
+    <meta name = "viewport" content = "width=device-width, initial-scale=1.0">
+    <meta http-equiv = "X-UA-Compatible" content = "ie=edge">
+    <title>Ajit Ashwath</title>
+    <link rel = "icon" href = "coding.png" type = "image/x-icon">
+    <link rel = "stylesheet" href = "https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.0/animate.min.css">
+    <link href = "https://fonts.googleapis.com/css?family=Comfortaa:700" rel = "stylesheet">
+    <script src = "https://code.jquery.com/jquery-3.3.1.min.js"></script>
+    <!-- integrity = "sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"-->
+    <link rel = "stylesheet" href = "https://use.fontawesome.com/releases/v5.7.1/css/all.css">
+    <!-- integrity = "sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous"-->
+    <link rel = "stylesheet" href = "style.css">
+</head>
+<body>
+    <div id = "loading">
+        <div id = "spinner"></div>
+    </div>
+    <div id = "particles-js"></div>
+    <div id = "box">
+        <div class = "box1 onlywide animated bounceOutLeft" style = "animation-delay:1.7s;"></div>
+        <div class = "box2 onlywide animated bounceOutLeft" style = "animation-delay:1.8s;"></div>
+        <div class = "box2 onlywide animated bounceOutLeft" style = "animation-delay:1.9s;"></div>
+        <div class = "box2 animated bounceOutRight" style = "animation-delay:1.9s;"></div>
+        <div class = "box2 onlywide animated bounceOutRight" style = "animation-delay:1.8s;"></div>
+        <div class = "box2 onlywide animated bounceOutRight" style = "animation-delay:1.7s;"></div>
+    </div>
+    <a id = "about" onclick = showabout() class = "animated fadeIn" style = "animation-delay:2.2s;">About</a>
+    <a id = "work" onclick = showwork() class = "animated fadeIn" style = "animation-delay:2.2s;">Projects</a>
+    <a id = "contact" onclick = showcontact() class = "animated fadeIn" style = "animation-delay:2.2s;">Contact</a>
+    <div id = "middle" class = "animated slideInDown" style = "animation-delay:2.0s;">
+        <h1>Ajit Ashwath.</h1>
+        <h2>Passionate AI Engineer / Music Artist / Freshman</h2>
+        <div id = "menu">
+            <a onclick = showabout()>About</a>
+            <a onclick = showwork()>Projects</a>
+            <a onclick = showcontact()>Contact</a>
+        </div>
+        <table>
+                <tr>
+                    <td class = "animated zoomIn" style = "animation-delay:2.2s;"><a href = "https://github.com/ajitashwathr10" target = "_blank" a class = "social"><i class = "fab fa-github"></i></a></td>
+                    <td class = "animated zoomIn" style = "animation-delay:2.4s;"><a href = "https://linkedin.com/in/ajitashwathr10" target = "_blank" a class = "social"><i class="fab fa-linkedin"></i></a></td>
+                    <td class = "animated zoomIn" style = "animation-delay:2.6s;"><a href = "https://instagram.com/ajitashwathr" target = "_blank" a class = "social"><i class="fab fa-instagram"></i></a></td>
+                    <td class = "animated zoomIn" style = "animation-delay:2.8s;"><a href = "https://x.com/ajitashwath_r" target = "_blank" a class = "social"><i class="fab fa-twitter"></i></a></td>
+                </tr>
+        </table>
+    </div>
+    <div id = "work_container" class = "container">
+        <div onclick = closework()><i class = "fas fa-angle-right"></i></div>
+        <h1>Projects</h1>
+        <section>
+            <h2>AI Powered Image Generation</h2>
+            <p>
+                This project allows you to be an artist and programmer at the same time! It utilizes the power of deep learning, specifically Generative Adversarial Networks (GANs), to create new images based on your imagination and an existing image.
+            </p>
+            <a href = "https://github.com/ajitashwathr10/AI-Powered-Image-Generation" target = "_blank">
+                <button class = "btn_one">View Project</button>
+            </a>
+
+            <h2>Earth Conservatory - A Gateway to Biodiversity Awareness</h2>
+            <p>
+                The website can serve as a valuable tool to raise awareness and educate the public about the importance of protecting biodiversity.
+                 By using engaging visuals and clear messaging, the website can inspire visitors to take action and contribute to conservation efforts.
+            </p>
+            <a href = "https://github.com/ajitashwathr10/Earth-Conservatory" target = "_blank">
+                <button class = "btn_one">View Project</button>
+            </a>
+
+            <h2>Rock Paper Scissors</h2>
+            <p>
+                This Rock, Paper, Scissors project is an excellent opportunity to practice fundamental programming concepts in Python, 
+                such as user input, conditional statements, random number generation, and basic game development principles. 
+                It's suitable for beginners and can be expanded upon to include additional features or graphical interfaces for those seeking more advanced challenge.
+            </p>
+            <a href = "https://github.com/ajitashwathr10/Rock-Paper-Scissors" target = "_blank">
+                <button class = "btn_one">View Project</button>
+            </a>
+
+            <h2>Mean Variance Standard Deviation Calculator</h2>
+            <p>
+                This Python program demonstrates the power and simplicity of Python for performing basic statistical calculations.
+                With further enhancements, it can become a versatile tool for data analysis.
+            </p>
+            <a href = "https://github.com/ajitashwathr10/Mean-Variance-Standard" target = "_blank">
+                <button class = "btn_one">View Project</button>
+            </a>
+
+            <h2>Text-to-Speech Convertor with GUI</h2>
+            <p>
+                This Python-based text-to-speech converter project features a simple graphical user interface (GUI) built with Tkinter. 
+                It utilizes the gTTS library to seamlessly convert text input into spoken audio
+            </p>
+            <a href = "" target = "_blank">
+                <button class = "btn_one">View Project</button>
+            </a>
+
+            <h2>AI Chatbot using NLP (GUI)</h2>
+            <p>
+                This Python project aims to develop a user-friendly chatbot application built with Python. 
+                The chatbot will utilize Natural Language Processing (NLP) techniques to understand and respond to user queries in a meaningful way.
+            </p>
+            <a href = "" target = "_blank">
+                <button class = "btn_one">View Project</button>
+            </a>
+        </section>
+    </div>
+    <div id = "about_container" class = "container">
+            <div onclick = closeabout()><i class = "fas fa-angle-left"></i></div>
+            <h1>About</h1>
+            <section>
+                <h2>About me</h2>
+                <p>
+                    My official title is "Computer Science and Engineering (AI & ML) student," but let's be real, I'm basically a code-wielding Jedi in training.
+                    Obsessed with all things AI (think Skynet, but way less scary, and with way better taste in music), 
+                    I've been collecting certifications (especially Python and ML stuff) like Pokémon cards (gotta catch 'em all!).
+                </p>
+                <p>
+                    When I'm not battling bugs in my code, you can find me battling my inner rockstar as a Music Artist (think less stadium tours, more shower serenades). 
+                    I also avoid the dark side by hanging out with the cool kids at the Google Developer Student Clubs (GDSC) for AI/ML and Copywriting.
+                </p>
+                <p>
+                    So, yeah, that's me - a passionate learner with a healthy dose of dark humor (and a not-so-secret desire to invent a robot that does my chores). 
+                    Feel free to reach out, and let's nerd out about the future of AI, some philosophical movie talk, or why robots haven't taken over the world... yet (unless they're secretly making us the best Italian food ever, then that's okay).
+                </p>
+            </section>
+            <section>
+                <h2>Skills</h2>
+                <div id = "used">
+                    <div><i class = "fas fa-circle"></i>&nbsp;Python (Programming Language)</div>
+                    <div><i class = "fas fa-circle"></i>&nbsp;C++</div>
+                    <div><i class = "fas fa-circle"></i>&nbsp;C (Programming Language)</div>
+                    <div><i class = "fas fa-circle"></i>&nbsp;JavaScript</div>
+                    <div><i class = "fas fa-circle"></i>&nbsp;Java</div>
+                    <div><i class = "fas fa-circle"></i>&nbsp;R (Programming Language)</div>
+                    <div><i class = "fas fa-circle"></i>&nbsp;PHP</div>
+                    <div><i class = "fas fa-circle"></i>&nbsp;JavaScript</div>
+                    <div><i class = "fas fa-circle"></i>&nbsp;HTML5</div>
+                    <div><i class = "fas fa-circle"></i>&nbsp;CSS3</div>
+                    <div><i class = "fas fa-circle"></i>&nbsp;MySQL</div>
+                    <div><i class = "fas fa-circle"></i>&nbsp;Machine Learning</div>
+                    <div><i class = "fas fa-circle"></i>&nbsp;Deep Learning</div>
+                    <div><i class = "fas fa-circle"></i>&nbsp;Natural Language Processing (NLP)</div>
+                    <div><i class = "fas fa-circle"></i>&nbsp;Generative AI Concepts</div>
+                    <div><i class = "fas fa-circle"></i>&nbsp;Microsoft Office Applications</div>
+                    <div><i class = "fas fa-circle"></i>&nbsp;Networking</div>
+                    <div><i class = "fas fa-circle"></i>&nbsp;IT Operations</div>
+                    <div><i class = "fas fa-circle"></i>&nbsp;Power BI</div>
+                    <div><i class = "fas fa-circle"></i>&nbsp;Creative Problem Solving</div>
+                    <div><i class = "fas fa-circle"></i>&nbsp;Copywriting</div>
+                    <div><i class = "fas fa-circle"></i>&nbsp;Videography</div>
+                    <div><i class = "fas fa-circle"></i>&nbsp;Sound Design</div>
+                    <div><i class = "fas fa-circle"></i>&nbsp;Online Graphics/ Artworking</div>
+                </div>
+            </section>
+    </div>
+          <div id = "contact_container" class = "container">
+            <div onclick = closecontact()><i class = "fas fa-angle-down"></i></div>
+            <h1>Contact</h1>
+            <section>
+                <h2>Get In Touch</h2>
+                <p>
+                    <form>
+                        <input type = "text" placeholder = "Name" required>
+                        <input type = "email" placeholder = "Email" required><br>
+                        <textarea placeholder = "Your response" required rows = "4"></textarea><br>
+                        <button class = "btn_one">Send</button>
+                    </form> 
+                </p>
+            </section>
+        </div>
+    <script src = "js-script.js"></script>
+</body>
+</html>
